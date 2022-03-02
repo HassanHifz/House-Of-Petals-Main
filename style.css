@@ -183,7 +183,7 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .footer_btn_inner .btn img{margin-right:12px;vertical-align:middle}
 .footer_btn_inner .btn2{font-size:17px;background:transparent;border-radius:50px;padding:14px 44px;color:#fff;font-family:'Poppins';font-weight:700;display: flex;justify-content: center;align-items: center;border:2px solid #fff}
 .footer_btn_inner .btn2:hover{background-color: #000;border:2px solid #000;background-image: none;}
-.footer_position_inner_ticket .btn{font-size:22px;color: #ffffff;font-family:'Poppins';font-weight:700;display: flex;justify-content: center;align-items: center;background-image: linear-gradient(to right,#81638c,#735481,#8c6e95,#7b5d88,#81628c);border-radius:50px;padding:10px 44px;width: 288px;margin: 0 0;}
+.footer_position_inner_ticket .btn{font-size:22px;color: #ffffff;font-family:'Poppins';font-weight:700;display: flex;justify-content: center;align-items: center;background-image: linear-gradient(to right, #FF512F 0%, #dd2446  51%, #FF512F  100%);border-radius:50px;padding:10px 44px;width: 288px;margin: 0 0;}
 .footer_position_inner_ticket .btn img{vertical-align:middle;margin-right:12px}
 .footer_position_logo{text-align:center}
 .footer_bottom_flex{border-top:1px solid #414954;border-bottom:1px solid #414954}
