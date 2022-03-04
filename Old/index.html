@@ -56,7 +56,29 @@
             </div>
          </div>
       </header>
-
+	  
+	  <div class="window">
+    <div class="header2">
+        <div class="burger-container">
+            <div id="burger">
+                <div class="bar topBar"></div>
+                <div class="bar btmBar"></div>
+            </div>
+        </div>
+        <div class="icon icon-apple"></div>
+        <ul class="menu">
+            <li class="menu-item"><a href="#"></a></li>
+            <li class="menu-item"><a href="https://hopnft.netlify.app/">Home</a></li>
+            <li class="menu-item"><a href="#intro">WHAT IS HOUSE OF PETALS</a></li>
+            <li class="menu-item"><a href="#benefits">BENEFITS & UTILITIES</a></li>
+            <li class="menu-item"><a href="#roadmap">ROADMAP</a></li>
+            <li class="menu-item"><a href="#team">THE TEAM</a></li>
+            <li class="menu-item"><a href="#faq">FAQ'S</a></li>
+        </ul>
+        <div class="shop icon icon-bag"></div>
+    </div>
+</div>
+	  
       <div class="home_banner" id="home">
          <div class="hidden-xs">
             <img src="images/banner_new.jpg" title="" alt="" width="100%">   
@@ -141,7 +163,7 @@
             <div class="what_flex">
                <div class="what_inner">
                   <div class="what_inner_text visible-xs" data-aos="fade-up" data-aos-duration="1000">
-                     <h3><em>WHAT IS</em> HOUSE OF PETALS?</h3>
+                     <h3><em>WHAT IS</em><br> HOUSE OF PETALS?</h3>
                   </div>
                   <div class="what_inner_img" data-aos="fade-right" data-aos-duration="1000">
                      <img src="images/img_round2.png"  title="" alt="">
@@ -309,7 +331,7 @@ influencers and more perks to be released.</p>
       <div class="home_our_special">
          <div class="container-JT">
             <div class="home_benifits_heading home_our_special_heading" data-aos="fade-up" data-aos-duration="1000">
-               <h3>OUR ALL <br>  ACCESS BADGES</h3>
+               <h3>ALL ACCESS <br>  BADGES PAGE</h3>
                <p>DISCOVER ONE OF THE MOST RARE NFT COLLECTIONS</p>
             </div>
             <div class="home_our_special_flex">
@@ -503,17 +525,29 @@ influencers and more perks to be released.</p>
                </div>
             </div>
             <div class="to_be_announced">
-               <h5>PART 2 TO BE ANNOUNCED</h5>
+               <h5>MORE TO BE ANNOUNCED</h5>
             </div>
          </div>
          <div class="road_position_one">       
             <img src="images/img14.png" title="" alt="">       
+         </div>
+		 <div class="road_position_one" style="
+    left: 10% !important;
+    top: 30% !important;
+">       
+            <img src="images/imgmoon.png" title="" alt="">       
          </div>
          <div class="road_position_two">       
             <img src="images/img13.png" title="" alt="">       
          </div>
          <div class="road_position_three">       
             <img src="images/img15.png" title="" alt="">       
+         </div>
+		 <div class="road_position_three" style="
+    right: 10% !important;
+    top: 67% !important;
+">       
+            <img src="images/moon.png" title="" alt="">       
          </div>
 			<div class="road_position" style="display: none;">    
             <img src="images/img12.png" title="" alt="">       
@@ -708,10 +742,10 @@ crypto collections or digital assets stored on the blockchain.</p>
                   </div>
                   <div class="home_faq_inner">
                      <div class="faq_1  ac-title" data-in="#tab3">
-                        <h6 class="accordion">WHAT IS A HOP NFT BADGE?</h6>
+                        <h6 class="accordion">WHAT IS WHITELISTING?</h6>
                         <div class="panel accordian-para acc-show" id="tab3">
-                           <p>A House of Petals NFT Badge is a minted NFT that gives Tier 1 access to the HOP
-community.
+                           <p>Whitelisting is the process of getting a crypto wallet address pre-approved for a future
+NFT mint. The address being whitelisted would be your public Ethereum (ETH) address.
 </p>
                         </div>
                      </div>
@@ -727,11 +761,10 @@ community.
                   </div>       
                   <div class="home_faq_inner">
                      <div class="faq_1  ac-title" data-in="#tab5">
-                        <h6 class="accordion">WHAT IS WHITELISTING?</h6>
+                        <h6 class="accordion">WHAT IS A HOP NFT BADGE?</h6>
                         <div class="panel accordian-para acc-show" id="tab5">
-                           <p>Whitelisting is the process of getting a crypto wallet address pre-approved for a future
-NFT mint. The address being whitelisted would be your public Ethereum (ETH) address.
-</p>
+                           <p>A House of Petals NFT Badge is a minted NFT that gives Tier 1 access to the HOP
+community.</p>
                         </div>
                      </div>
                   </div>
@@ -1054,6 +1087,17 @@ $(document).ready(function() {
 
 		});
 		
-</script
+</script>
+
+<script>
+(function(){
+    var burger = document.querySelector('.burger-container'),
+        header2 = document.querySelector('.header2');
+    
+    burger.onclick = function() {
+        header2.classList.toggle('menu-opened');
+    }
+}());
+</script>
 
 </html>

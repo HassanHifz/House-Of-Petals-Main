@@ -936,9 +936,24 @@ font-size: 16px;
 .benifits_position4 {top: 8%;right: 1%;max-width: 200px;}
 .home_benifits_img_div img{max-width: 450px;margin: 0 auto;}
 
-.road_position_one {left: 9%;top: 8%;position: absolute;max-width: 120px;}
-.road_position_two {left: 5%;bottom: 36%;position: absolute;max-width: 150px;}
-.road_position_three {right: 10%;top: 6%;position: absolute;max-width: 150px;}
+.road_position_one {
+left: 9%;
+top: 8%;
+position: absolute;
+max-width: 85px;
+}
+.road_position_two {
+left: 5%;
+bottom: 14%;
+position: absolute;
+max-width: 110px;
+}
+.road_position_three {
+right: 10%;
+top: 6%;
+position: absolute;
+max-width: 100px;
+}
 .home_road_map_text h3 {
 font-size: 16px;
 }
@@ -948,10 +963,22 @@ font-size: 13px;}
 text-align: right;
 margin-top: 95px;
 }
-.home_road_map_box2 {text-align: right;margin-top: 319px;}
-.home_road_map_box3 {text-align: right;margin-top: 259px;}
-.home_road_map_box4 {text-align: left;margin-top: 304px;}
-.home_road_map_box5 {text-align: left;margin-top: 255px;}
+.home_road_map_box2 {
+text-align: right;
+margin-top: 182px;
+}
+.home_road_map_box3 {
+text-align: right;
+margin-top: 160px;
+}
+.home_road_map_box4 {
+text-align: left;
+margin-top: 224px;
+}
+.home_road_map_box5 {
+text-align: left;
+margin-top: 155px;
+}
 .to_be_announced h5 {
 text-align: center;
 font-size: 28px;}
@@ -979,7 +1006,7 @@ padding: 13px 25px;}
 padding-bottom: 20px;
 
 }
-.home_benifits_img {max-width: 775px;margin: 0 auto;}
+.home_benifits_img {max-width: 705px;margin: 0 auto;}
 
 
 .footer_div {
@@ -1355,7 +1382,12 @@ position: absolute;
 max-width: 200px;
 }
 
-.road_position_two {left: 5%;bottom: 23%;position: absolute;max-width: 280px;}
+.road_position_two {
+left: 5%;
+bottom: 20%;
+position: absolute;
+max-width: 280px;
+}
 .road_position_three {
 right: 10%;
 top: 6%;
@@ -1740,7 +1772,7 @@ text-align: center;
 	 width: 100%;
 }
  .window .header2.menu-opened {
-	 height: 650px;
+	 height: 100%;
 	 background-color: #000;
 	 transition: all 0.3s ease-in, background 0.5s ease-in;
 	 transition-delay: 0.25s;
