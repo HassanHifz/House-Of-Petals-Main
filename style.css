@@ -95,8 +95,8 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_welcome .btn img{margin-left:20px}
 .what_flex{display:flex;flex-wrap:wrap;margin:0 -15px}
 .what_inner{width:50%;padding:0 15px;}
-.what_inner_text h3{font-size:70px;color:#fff;margin:80px 0 40px;font-family:'Rubik';font-weight:700}
-.what_inner_text h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900}
+.what_inner_text h3{font-size:70px;color:#fff;margin:80px 0 40px;font-family: 'Oleo Script';font-weight:700}
+.what_inner_text h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900;font-family: 'Roboto Slab' !important;}
 .what_inner_text p{font-size: 14px;margin: 0 0 15px;position:relative;color:#fff;font-family:'Poppins';font-weight:400}
 .what_inner_text p:before{content:'';position:absolute;left:0;top:0;width:10px;height:100%;border-radius:50px;background-image: linear-gradient(to right,#81638c,#735481,#8c6e95,#7b5d88,#662c7a);display: none;}
 .what_inner_text h4{font-size: 14px;color:#fff;margin: 0 0 35px;font-family:'Poppins';font-weight: 400;}
@@ -110,8 +110,8 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_bored_text{position:absolute;bottom:0;left:0;right:0;margin:0 auto;text-align:center}
 .home_bored_text h3{font-size:200px;color:#fff;margin:0;text-align:center;font-family:'Rubik';font-weight:900}
 .home_benifits{padding:135px 0;background-repeat:no-repeat;background-size:cover}
-.home_benifits_heading h3{font-size:70px;color:#fff;margin:0 0 10px;font-family:'Rubik';font-weight:700;text-align:center}
-.home_benifits_heading h3 em{-webkit-text-stroke: 2px #fff;color:transparent;font-style:normal;font-weight:900}
+.home_benifits_heading h3{font-size:70px;color:#fff;margin:0 0 10px;font-family: 'Roboto Slab';font-weight:700;text-align:center}
+.home_benifits_heading h3 em{font-style:normal;font-weight:900}
 .home_benifits_heading p{font-size:17px;margin:0 0 35px;color:#fff;font-family:'Poppins';font-weight:400;text-align:center}
 .home_benifits_img{position:relative;text-align:center;}
 .benifits_position{position:absolute}
@@ -130,8 +130,8 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .arrow_position4{top:17%;right:31%}
 .arrow_position5{bottom:47%;right:26%}
 .home_road_map{padding: 115px 0 40px;background-repeat:no-repeat;background-size:cover;position:relative}
-.home_road_map_heading h3{font-size:70px;color:#fff;margin:0 0 10px;font-family:'Rubik';font-weight:700;text-align:center}
-.home_road_map_heading h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900}
+.home_road_map_heading h3{font-size:70px;color:#fff;margin:0 0 10px;font-family: 'Roboto Slab';font-weight:700;text-align:center}
+.home_road_map_heading h3 em{font-style:normal;font-weight:900}
 .home_road_map_heading p{font-size:17px;margin:0 0 35px;color:#fff;font-family:'Poppins';font-weight:400;text-align:center}
 .home_road_map_flex{display:flex;justify-content:center}
 .home_road_map_text h3{font-size:25px;margin:0 0 12px;color: #FF00FF;font-family:'Rubik';font-weight:700;}
@@ -197,8 +197,8 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .footer_position_inner:nth-child(2):before{content:'';position:absolute;border-left:1px solid #414954;width:1px;height:100%;left:0;top:0}
 .footer_position_inner:nth-child(2):after{content:'';position:absolute;border-right:1px solid #414954;width:1px;height:100%;right:0;top:0}
 .footer_position_inner:nth-child(3){display:flex;justify-content:center}
-.footer_position_inner h3{font-size:55px;color:#fff;margin:0 0 10px;font-family:'Rubik';font-weight:700;text-align:left}
-.footer_position_inner h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900}
+.footer_position_inner h3{font-size:55px;color:#fff;margin:0 0 10px;font-family: 'Oleo Script';font-weight:700;text-align:left}
+.footer_position_inner h3 em{-webkit-text-stroke: 1px #fff;color:transparent;font-style:normal;font-weight:900;font-family: 'Roboto Slab';}
 .footer_position_inner p{font-size:18px;margin:0 0 15px;color:#fff;font-family:'Poppins';font-weight:400}
 .footer_btn_flex{display:flex;margin:0 -10px}
 .footer_btn_inner{padding:0 10px}
