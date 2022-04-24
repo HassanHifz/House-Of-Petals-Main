@@ -15,14 +15,14 @@ img{max-width:100%;height:auto}
 a , .btn , a:hover , .btn:hover{transition: 0.3s all ease-in-out;}
 div{box-sizing:border-box}
 body{background-color: #000000;margin:0;box-sizing:border-box}
-.header_main{position:absolute;left:0;right:0;margin:0 auto;z-index:2;}
+.header_main{position:absolute;left:0;right:0;margin:0 auto;z-index:2;margin-top: 30px;}
 .header_flex{display:flex;align-items:center;justify-content:center}
 .header_menu{border: 2px solid #ffffff;}
-.header_menu1{border-radius:50px;/* border-bottom-right-radius:0; *//* border-top-right-radius:0; *//* border-right:0 */}
+.header_menu1{border-radius:50px;border-bottom-right-radius:0;border-top-right-radius:0;border-right:0;border-left: 0;border-bottom-left-radius: 0;border-top-left-radius: 0;}
 .header_menu2{border-radius:50px;/* border-bottom-left-radius:0; *//* border-top-left-radius:0; *//* border-left:0 */}
 .header_menu ul{display:flex;align-items:center;min-height:70px}
 .header_menu ul li{margin:0 32px}
-.header_menu ul li a{font-size:17px;color:#fff;font-family: 'Fredoka';font-weight:500}
+.header_menu ul li a{font-size: 25px;color:#fff;font-family: 'Fredoka';font-weight:500;text-shadow: 0px 4px 20px rgb(0 0 0), 0px 8px 20px rgb(0 0 0), 0px 18px 23px rgb(0 0 0), 20px 2px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0);}
 .header_menu ul li .btn{font-size:17px;color: #ffffff;font-family:'Poppins';font-weight:700;display:flex;align-items:center;background-image: linear-gradient(to right,#81638c,#735481,#8c6e95,#7b5d88,#81628c);border-radius:50px;padding:5px 34px;}
 .header_menu ul li .btn img{margin-right:12px}
 .header_logo{padding:10px}
@@ -36,7 +36,7 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .banner_icon1{bottom: 26%;left: 3%;}
 .banner_icon2{    bottom: 39%;right: 1%;}
 .banner_icon3{bottom: 16%;left: 62%;}
-.home_banner_position{position:absolute;top:14%;left:0;right:0;max-width:1500px;margin:0 auto;padding:0 15px}
+.home_banner_position{position:absolute;top: 18%;left:0;right:0;max-width:1500px;margin:0 auto;padding:0 15px}
 .home_banner_text h4{
              font-size: 60px;
              margin:0;
@@ -95,9 +95,9 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_welcome .btn img{margin-left:20px}
 .what_flex{display:flex;flex-wrap:wrap;margin:0 -15px}
 .what_inner{width:50%;padding:0 15px;}
-.what_inner_text h3{font-size:70px;color:#fff;margin:80px 0 40px;font-family: 'Rubik';font-weight:700}
-.what_inner_text h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900;font-family: 'Rubik';}
-.what_inner_text p{font-size: 14px;margin: 0 0 15px;position:relative;color:#fff;font-family:'Poppins';font-weight:400}
+.what_inner_text h3{font-size: 70px;color:#fff;margin:80px 0 40px;font-family: 'Rubik';font-weight:700}
+.what_inner_text h3 em{-webkit-text-stroke:1px #fff;color:transparent;font-style:normal;font-weight:900;font-family: 'Rubik';font-size: 79px;}
+.what_inner_text p{font-size: 17px;margin: 0 0 15px;position:relative;color:#fff;font-family:'Poppins';font-weight:400}
 .what_inner_text p:before{content:'';position:absolute;left:0;top:0;width:10px;height:100%;border-radius:50px;background-image: linear-gradient(to right,#81638c,#735481,#8c6e95,#7b5d88,#662c7a);display: none;}
 .what_inner_text h4{font-size: 14px;color:#fff;margin: 0 0 35px;font-family:'Poppins';font-weight: 400;}
 .what_inner_text .btn{font-size:17px;background-image: linear-gradient(to right,#81638c,#735481,#8c6e95,#7b5d88,#81628c);border-radius:50px;padding:22px 44px;color:#fff;font-family:'Poppins';font-weight:700;display: none;align-items: center;justify-content: center;width: 210px;}
@@ -143,7 +143,7 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_road_map_box4{text-align:left;margin-top:365px}
 .home_road_map_box5{text-align:left;margin-top:285px}
 .road_position{right:0;bottom:0;position:absolute}
-.to_be_announced h5{text-align:center;font-size:40px;background-image:linear-gradient(to right,#a7d451,#bcc332,#ceb017,#de9c08,#ec8515);text-align:center;margin:60px 0 10px;font-family:'Rubik';font-weight:700;-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-shadow: 1px 1px 12px rgb(255 255 255 / 31%);}
+.to_be_announced h5{text-align:center;font-size: 20px;color: #FF00FF;text-align:center;margin:60px 0 10px;font-family:'Rubik';font-weight:700;-webkit-background-clip:text;/* -webkit-text-fill-color:transparent; */text-shadow: 1px 1px 12px rgb(255 255 255 / 31%);}
 .road_position_one{left:9%;top:8%;position:absolute}
 .road_position_two{left:5%;bottom: 24%;position:absolute}
 .road_position_three{right:10%;top:6%;position:absolute}
@@ -325,7 +325,7 @@ max-width: 20%;
 
 .home_banner_position {
 
-top: 15%;}
+top: 20%;}
 
 .home_banner_text h3 {font-size: 45px;}
 .home_banner_text h4 {font-size: 30px;}
@@ -471,7 +471,7 @@ max-width: 18px;
 
 .community_flex {
 justify-content: center;
-}
+display: flex;flex-direction: column;align-content: center;flex-wrap: nowrap;align-items: center;}
 .community_inner .btn {
 font-size: 10px;
 padding: 18px 20px;}
@@ -644,7 +644,7 @@ max-width: 60px;
 }
 .to_be_announced h5 {
 text-align: center;
-font-size: 20px;}
+font-size: 13px;}
 .home_road_map_text h3 {
 font-size: 14px;}
 .home_road_map_text p { font-size: 10px; }
@@ -668,7 +668,7 @@ padding-bottom: 20px;}
 .mobile_road_map_inner{
 display: flex;margin-bottom: 20px;
 
-}
+justify-content: center;align-items: center;align-content: center;flex-wrap: nowrap;flex-direction: column;}
 .mobile_road_map_text{margin-left:20px;}
 
 
@@ -751,7 +751,7 @@ margin-top: 32px;
 margin: 0 8px;
 }
 .header_menu ul li a {
-font-size: 10px;}
+font-size: 15px;}
 .header_menu ul li .btn {
 font-size: 10px;    padding: 5px 20px;}
 .header_logo {
@@ -955,7 +955,7 @@ margin-top: 95px;
 .home_road_map_box5 {text-align: left;margin-top: 255px;}
 .to_be_announced h5 {
 text-align: center;
-font-size: 28px;}
+font-size: 15px;}
 .road_position {
 right: 0;
 bottom: 88px;
@@ -1122,7 +1122,7 @@ font-size: 60px;}
 margin: 0 9px;
 }
 .header_menu ul li a {
-font-size: 14px;}
+font-size: 18px;}
 .header_menu ul li .btn {
 font-size: 14px;
 padding: 5px 29px;
@@ -1265,7 +1265,7 @@ font-size: 25px;
 }
 .to_be_announced h5 {
 text-align: center;
-font-size: 30px;}
+font-size: 17px;}
 .benifits_position p {
 font-size: 12px;}
 
@@ -1318,7 +1318,7 @@ max-width: 25%;
 margin: 0 17px;
 }
 .header_menu ul li a {
-font-size: 14px;}
+font-size: 18px;text-shadow: 0px 4px 20px rgb(0 0 0), 0px 8px 20px rgb(0 0 0), 0px 18px 23px rgb(0 0 0), 20px 2px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0);}
 .header_menu ul li .btn {
 font-size: 14px;padding: 5px 29px;}
 .home_banner_text h3 {
@@ -1543,8 +1543,8 @@ font-size: 60px;}
 font-size: 75px;}
 
 .header_menu ul li a {
-font-size: 16px;
-}
+font-size: 19px;
+text-shadow: 0px 4px 20px rgb(0 0 0), 0px 8px 20px rgb(0 0 0), 0px 18px 23px rgb(0 0 0), 20px 2px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0), 1px 0px 23px rgb(0 0 0);}
 .header_menu ul li {
 margin: 0 20px;
 }    
@@ -1735,13 +1735,13 @@ text-align: center;
 	 font-family: 'Ek Mukta', sans-serif;
 	 font-weight: 100;
 	 text-decoration: none;
-	 font-size: 22px;
+	 font-size: 15px;
 	 line-height: 2.35;
 	 font-weight: 200;
 	 width: 100%;
 }
  .window .header2.menu-opened {
-	 height: 650px;
+	 height: 350px;
 	 background-color: #000;
 	 transition: all 0.3s ease-in, background 0.5s ease-in;
 	 transition-delay: 0.25s;
