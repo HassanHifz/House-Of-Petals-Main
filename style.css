@@ -152,7 +152,7 @@ body{background-color: #000000;margin:0;box-sizing:border-box}
 .home_community_inner{width:50%;padding:0 15px}
 .home_community_text p{font-size: 20px;margin:0 0 45px;max-width: 608px;color:#fff;font-family:'Poppins';font-weight:400}
 .community_flex{display:flex;margin:0 -10px}
-.community_inner{padding:0 10px;margin-bottom: 20px;}
+.community_inner{padding:0 10px}
 .community_inner .btn{font-size:17px;background-image: linear-gradient(to right, #FF512F 0%, #dd2446  51%, #FF512F  100%);border-radius:50px;padding:22px 44px;color:#fff;font-family:'Poppins';font-weight:700;display:flex;align-items: center;justify-content: center;}
 .community_inner .btn img{margin-right:10px}
 .community_inner .btn2{padding:20px 44px;border: 2px solid #ffffff;background:transparent;color: #fff;}
@@ -675,7 +675,7 @@ justify-content: center;align-items: center;align-content: center;flex-wrap: now
 .road_position {display: none;right: 0;bottom: 0;position: relative;max-width: 200px;}
 .home_road_map {
 padding: 40px 0 120px;}    
-.mobile_road_map_flex{display: block;text-align: center;}    
+.mobile_road_map_flex{display: block;}    
 
 
 .round_icon1{bottom: 39%;max-width: 20%;left: 42%;}
@@ -1633,7 +1633,7 @@ text-align: center;
 	 left: 0;
 	 height: 50px;
 	 width: 100%;
-	 background: rgb(0 0 0 / 0%);
+	 background: rgba(0, 0, 0, 0.8);
 	 overflow: hidden;
 	 transition: all 0.5s ease-out, background 1s ease-out;
 	 transition-delay: 0.2s;
